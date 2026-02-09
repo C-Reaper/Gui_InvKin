@@ -4,7 +4,7 @@
 InvKin ik;
 
 void Setup(AlxWindow* w){
-    ik = InvKin_New((Vec2){ GetWidth() / 2,GetHeight() / 2 },40.0f,0.0f,25);
+    ik = InvKin_New((Vec2){ GetWidth() / 2,GetHeight() / 2 },100.0f,0.0f,10);
 }
 void Update(AlxWindow* w){
 	InvKin_Update(&ik,GetMouse());
